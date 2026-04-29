@@ -1008,7 +1008,7 @@ function MainApp() {
         {/* Logo */}
         <div className="flex justify-center mb-6 p-6 rounded-lg" style={{ backgroundColor: brandColors.darkTeal }}> {/* Changed background and padding */}
           <img
-            src="https://georgesriver.spydus.com/api/maintenance/1.0/imagebrowser/image?blobName=a31cf63f-7e24-41d5-b1f8-c206bde45ce6.png" // Updated logo source
+            src="/grl-logo.png"
             alt="Georges River Libraries Logo"
             className="h-24 md:h-28 object-contain rounded-md"
             onError={(e) => {
